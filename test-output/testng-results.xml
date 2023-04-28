@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15191" started-at="2022-11-21T12:40:14 UTC" finished-at="2022-11-21T12:40:29 UTC">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15191" started-at="2022-11-21T12:40:14 UTC" finished-at="2022-11-21T12:40:29 UTC">
+      <class name="demoSelenium.Demo">
+        <test-method status="PASS" signature="edge()[pri:0, instance:demoSelenium.Demo@23fe1d71]" name="edge" duration-ms="15078" started-at="2022-11-21T12:40:14 UTC" finished-at="2022-11-21T12:40:29 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edge -->
+      </class> <!-- demoSelenium.Demo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,106 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-11-18T10:59:31.293Z",
+        "line": 3,
+        "name": "Sample product",
+        "description": "",
+        "id": "sample;sample-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6295000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "application is opened",
+            "match": {
+              "location": "DefineSteps.application_is_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4585800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user brought mobile for 40",
+            "match": {
+              "arguments": [
+                {
+                  "val": "40",
+                  "offset": 24
+                }
+              ],
+              "location": "DefineSteps.user_brought_mobile_for(Integer)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-18T10:59:31.591Z",
+        "line": 8,
+        "name": "Get pet details by ID from Online swagger pet Store",
+        "description": "",
+        "id": "sample;get-pet-details-by-id-from-online-swagger-pet-store",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "The API is UP and running at \"https://petstore.swagger.io/\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "user sending Get Req \"v2/pet/222\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "the response status code is 200",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "the response body must have \"message\" as \"available\"",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@GetUser"
+          }
+        ]
+      }
+    ],
+    "name": "Sample",
+    "description": "",
+    "id": "sample",
+    "keyword": "Feature",
+    "uri": "file:Features/demo.feature",
+    "tags": []
+  }
+]
